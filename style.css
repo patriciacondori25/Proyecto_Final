@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    background-image: url('https://media.admagazine.com/photos/621d8bf6c54951b06234398e/16:9/w_2560%2Cc_limit/lago%2520portada.jpg');
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin: 0 auto;
+    background-color: rgba(182, 236, 175, 0.829);
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+button {
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color:rgb(122, 161, 25);
+    color: white;
+    padding: 10px;
+
+}
+
+textarea {
+    border-radius: 5px;
+    background-color:rgb(242, 248, 227);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.botones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    
+}
+#foto{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+}
+
+thead {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+thead img {
+    height: 100px;
+    border-radius: 50%;
+    border: solid 5px rgb(122, 161, 25);
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(51, 50, 50);
+    padding: 10px 5px 5px 10px;
+}
+
+th {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 1px rgb(0, 0, 0);
+    background-color:rgb(122, 161, 25);
+    color: white;
+    padding: 10px 0px;
+}
+
+tr {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding:1em;
+}
+td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 1px 10px;
+}
+
+
+
+

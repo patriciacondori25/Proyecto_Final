@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis datos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <h1 style="color:rgb(2, 99, 50);">Blog Personal de Viajes</h1>
+    
+    <div class="botones">
+        <form action="index.html" method="post"> 
+            <button type="submit">IR A INICIO</button> 
+        </form> &nbsp; &nbsp;&nbsp;
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="2">
+                    <img src="img/rpco.png" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                </td>
+            </tr>
+        </thead>
+        <tr>
+            <td>
+                <button type="button" onclick="datos()">SOY:</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Nombres:</td>
+            <td>
+                <textarea id="nombre" readonly cols="30" rows="1"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Apellidos:</td>
+            <td>
+                <textarea id="apellidos" readonly cols="30" rows="1"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Móvil:</td>
+            <td>
+                <textarea id="movil" readonly cols="30" rows="1"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Correo:</td>
+            <td>
+                <textarea id="email" readonly cols="30" rows="1"></textarea>
+            </td>
+        </tr>
+
+    </table>
+    <h3 style="color:rgb(255, 255, 255);">¿Bienvenido que deseas conocer?</h3>
+    
+    <div class="botones">
+        <form action="viajes.html" method="post"> 
+            <button type="submit">VIAJES</button> 
+        </form>
+        <form action="comidas.html" method="post"> 
+            <button type="submit">COMIDAS</button> 
+        </form>
+    </div>
+
+</body>
+</html>
